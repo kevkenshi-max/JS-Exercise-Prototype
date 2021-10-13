@@ -5,6 +5,12 @@
 ## Objectives
 
 - explain the four principles of the 'this' keyword and demonstrate each explanation with an example of their uses
+
+  When in the global scope, the value of "this" will be the window/console Object;
+  Whenever a preceding dot calls a function, the object before the dot is this
+  Whenever we use a constructor function, this refers to the specific instance of the object that is created and returned by the constructor function.
+  Whenever we use JavaScript's call or apply method, this is explicitly defined.
+  
 - describe, and use prototypes, constructor functions the new keyword, and pseudo-classical inheritance to build objects
 
 ## Introduction
